@@ -36,3 +36,6 @@ Step by step:
      (After push, login to https://github.com/Code-the-Dream-School/Backend-sqlintro ,
      and there should be a prompt dialog bar asking you to create a PR.
      Click on the 'Pull request' and it should redirect you to to create PR page.)
+
+  8) Give your PR a name that's easy to read (ex.: Firstname_Lastname Assignment Week_1 ) if GitHub didn't take your commit message as the PR name.
+     Create a Pull Request and you're done (you can update your code by repeat the above steps after creating the PR, GitHub will automatically update the PR for you)!

@@ -35,4 +35,4 @@ Step by step:
   7) Go to GitHub and create a PR.
      (After push, login to https://github.com/Code-the-Dream-School/Backend-sqlintro ,
      and there should be a prompt dialog bar asking you to create a PR.
-     Click on the bar and it should redirect you to to create PR page.)
+     Click on the 'Pull request' and it should redirect you to to create PR page.)

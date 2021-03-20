@@ -1,14 +1,41 @@
-(1) Using the Customer Table, select the CustomerName, ContactName, and Country.  Use ORDER BY to order by Country.  
-Use LIMIT and OFFSET to get entries 11 through 20. Paste your SQL statement below. 
+* NO ANSWERS HERE *
 
-(2) Select all columns from the Customer table where the ContactName starts with A.  Paste your SQL statement below.
+This is a naming convention example on how your PR name should look like.
+Please put your First & Last name in your PR title so the mentors can tell who's PR is it.
+Thank you and much appreciated! Cheers!
 
-(3) Select all columns from the OrderDetails table where the ProductID is 51 and the quantity is greater than 10.
-Paste your SQL statement below.
+Step by step:
+  1) After edit & save your remote repo, open your terminal/shell and cd to your directory.
+     ex.==> Macbooks-MacBook-Pro:Backend-sqlintro macbook$
+  2) After the $ sign, type in:
 
-(4) Insert 3 rows into the Products table.  Note that you will have to specify a valid SupplierID and CategoryID, 
-corresponding to rows from the Supplier and Category tables.  Paste your three SQL statements below.
+      git add -A
 
-(5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
+     ex.==> Macbooks-MacBook-Pro:Backend-sqlintro macbook$ git add -A
+  3) Notice the sql.txt file in your left panel is grey out or become the same color as the other files.
+     (depends on what IDE you are using, color might be different), but the terminal doesn't not show any new line.
+  4) Just type in:  (make sure you have typed 'git add -A' and hit enter before this step)
 
-(6) Delete all rows of the Products Table where the price is less than 7.00. Paste your SQL statement below.
+      git commit "Jasper_Lin(replace this with your first & last name) assignment week_1."
+
+  5) After you hit enter, It'll show several lines of info about your git config and number of files changed.
+     (something like this in the last few lines):
+        .......
+        1 file changed, 4 insertions(+), 14 deletions(-)
+        rewrite sql.txt (100%)
+  6) Do a 'git push' (it might ask you to set the origin if u had branch out from Master, then u can use the second command):
+     After the $ sign, type in:
+
+      git push
+
+     If it says 'fatal: The current branch blah-blah-blah ...', try:
+
+     git push --set-upstream origin JasperLin(replace this with your branch name)
+
+  7) Go to GitHub and create a PR.
+     (After push, login to https://github.com/Code-the-Dream-School/Backend-sqlintro ,
+     and there should be a prompt dialog bar asking you to create a PR.
+     Click on the 'Pull request' and it should redirect you to to create PR page.)
+
+  8) Give your PR a name that's easy to read (ex.: Firstname_Lastname Assignment Week_1 ) if GitHub didn't take your commit message as the PR name.
+     Create a Pull Request and you're done (you can update your code by repeat the above steps after creating the PR, GitHub will automatically update the PR for you)!
